@@ -1,0 +1,59 @@
+.container{
+    background-color: #ffffff;
+    width: 60%;
+    position: relative;
+    padding: 50px 20px;
+    border-radius: 7px;
+    margin: 50px auto;
+    box-shadow: 0 10px 20px #000000;
+    min-width: 450px;
+    text-align: center;
+}
+input[type="file"]{
+    display: none;
+}
+label{
+    display: block;
+    position: relative;
+    background-color: #0e047c;
+    color: #ffffff;
+    font-size: 18px;
+    width: 200px;
+    padding: 18px 0;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* images num-of-file */
+#num-of-file{
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+.container p{
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+.container i{
+    font-size: 2rem;
+}
+#images{
+    width: 90%;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 20px;
+}
+figure{
+    width: 32%;
+}
+img{
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+    font-size: 2.4vmin;
+    margin-top: 0.5vmin;
+}
